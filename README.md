@@ -12,17 +12,19 @@ NerfDX only depends on SharpDX libraries in order to reduce the chance of diamon
 
 Here is an example of the minimal code required to use NerfDX.DirectInput.
 
+Instantiate and initialize the library
 ```c#
+// Register for controller button, POV, and axis events (may be done at any time)
+EventBus<EventController>.Instance.EventRecieved += OnEventController;
+
 // Constructs wrapped SharpDX.DirectInput instance 
 directInput = new DirectInputManager();
 
 // Starts threads that either poll or wait for joystick input 
 directInput.Initialize();
-
-// Register for controller button, POV, and axis events 
-EventBus<EventController>.Instance.EventRecieved += OnEventController;
 ```
 
+Process events from the library
 ```c#
 private static void OnEventController(object sender, BusEventArgs<EventController> e)
 {
@@ -33,7 +35,7 @@ private static void OnEventController(object sender, BusEventArgs<EventControlle
 
 ## Examples
 
-Examples included show simplest possible usage for the scenario:
+Included example projects show simplest possible usage and dependencies for the scenario:
 
 * JoyConsole Console application only with logging to stdout.
 * JoyLog Console application plugs in Log4net wrapper (NerfDX knows nothing about Log4net).
