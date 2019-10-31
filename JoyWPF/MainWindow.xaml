@@ -1,0 +1,26 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JoyWPF"
+        xmlns:Events="clr-namespace:NerfDX.Events;assembly=NerfDX" x:Name="Main" x:Class="JoyWPF.MainWindow"
+        mc:Ignorable="d"
+        Title="NerfDX  WPF Example" Height="502.15" Width="553.532" Loaded="OnLoaded">
+    <Window.Resources>
+        <CollectionViewSource x:Key="mainWindowViewSource" d:DesignSource="{d:DesignInstance {x:Type local:MainWindow}, CreateList=True}"/>
+    </Window.Resources>
+    <Grid Margin="10,10,10,10" RenderTransformOrigin="0.478,0.848">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="397*"/>
+            <ColumnDefinition Width="398*"/>
+        </Grid.ColumnDefinitions>
+        <DataGrid x:Name="ControllerDataGrid" Margin="0,0,5,0"/>
+        <TextBox x:Name="ControllerLog" TextWrapping = "NoWrap" VerticalScrollBarVisibility = "Auto" HorizontalScrollBarVisibility = "Auto" Grid.Column="1" Margin="5,0,0,0"/>
+        <Button Content="Clear" Name="ButtonClear" HorizontalAlignment="Center" VerticalAlignment="Bottom" Click="OnButtonClear" Grid.Row ="1" Grid.Column="1" />
+    </Grid>
+</Window>

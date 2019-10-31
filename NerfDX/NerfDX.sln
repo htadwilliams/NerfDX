@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NerfDX", "NerfDX.csproj", "{2E39BA77-268A-4845-9687-B35287BD9B31}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{6475FCC2-9100-474F-B5E3-01E22E642014}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JoyConsole", "..\JoyConsole\JoyConsole.csproj", "{68721721-3387-4326-B18B-96FB0F91EE4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JoyWPF", "..\JoyWPF\JoyWPF.csproj", "{56872A85-C525-444D-B63B-95496242091C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JoyForm", "..\JoyForm\JoyForm.csproj", "{DA3FBC2C-5F33-4ACC-8FD8-2565D91BF50A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JoyLog", "..\JoyLog\JoyLog.csproj", "{D6C7A856-A996-4807-B835-8B89558A670B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NerfDXTests", "..\NerfDXTests\NerfDXTests.csproj", "{605862E9-3168-4E7A-9FA5-10C9A0CB1D2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E39BA77-268A-4845-9687-B35287BD9B31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E39BA77-268A-4845-9687-B35287BD9B31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E39BA77-268A-4845-9687-B35287BD9B31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E39BA77-268A-4845-9687-B35287BD9B31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68721721-3387-4326-B18B-96FB0F91EE4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68721721-3387-4326-B18B-96FB0F91EE4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68721721-3387-4326-B18B-96FB0F91EE4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68721721-3387-4326-B18B-96FB0F91EE4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56872A85-C525-444D-B63B-95496242091C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56872A85-C525-444D-B63B-95496242091C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56872A85-C525-444D-B63B-95496242091C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56872A85-C525-444D-B63B-95496242091C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA3FBC2C-5F33-4ACC-8FD8-2565D91BF50A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA3FBC2C-5F33-4ACC-8FD8-2565D91BF50A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA3FBC2C-5F33-4ACC-8FD8-2565D91BF50A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA3FBC2C-5F33-4ACC-8FD8-2565D91BF50A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6C7A856-A996-4807-B835-8B89558A670B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6C7A856-A996-4807-B835-8B89558A670B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6C7A856-A996-4807-B835-8B89558A670B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6C7A856-A996-4807-B835-8B89558A670B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{605862E9-3168-4E7A-9FA5-10C9A0CB1D2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{605862E9-3168-4E7A-9FA5-10C9A0CB1D2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{605862E9-3168-4E7A-9FA5-10C9A0CB1D2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{605862E9-3168-4E7A-9FA5-10C9A0CB1D2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{68721721-3387-4326-B18B-96FB0F91EE4B} = {6475FCC2-9100-474F-B5E3-01E22E642014}
+		{56872A85-C525-444D-B63B-95496242091C} = {6475FCC2-9100-474F-B5E3-01E22E642014}
+		{DA3FBC2C-5F33-4ACC-8FD8-2565D91BF50A} = {6475FCC2-9100-474F-B5E3-01E22E642014}
+		{D6C7A856-A996-4807-B835-8B89558A670B} = {6475FCC2-9100-474F-B5E3-01E22E642014}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70B21480-7C59-4411-87EE-A889EF0390A0}
+	EndGlobalSection
+EndGlobal
