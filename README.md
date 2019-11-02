@@ -42,7 +42,10 @@ The library is available as a NuGet package at https://www.nuget.org/packages/Ne
 
 ## Dependencies
 
-NerfDX only depends on SharpDX libraries in order to reduce the chance of diamond dependency or library hell scenarios. 
+NerfDX only depends on SharpDX libraries.
+
+* SharpDX https://www.nuget.org/packages/SharpDX/
+* SharpDX.DirectInput https://www.nuget.org/packages/SharpDX.DirectInput/
 
 Loggers may be supplied at runtime to allow the underlying components to use a logging framework such as Log4net or NLog. The constructor of DirectInputManager optionally allows a logger wrapper to be supplied.
 
