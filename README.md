@@ -51,4 +51,4 @@ Example      | Scenario
 JoyConsole   | Console application only with logging to stdout.
 JoyLog       | Console application plugs in Log4net wrapper (NerfDX knows nothing about Log4net).
 JoyForm      | Windows forms application displays list of connected controllers and log of controller input.
-JoyWPF       | WPF application displays list of connected controllers and log of controller input, very similar to JoyForm.
+JoyWPF       | Identical to JoyForm but using WPF instead of forms.
